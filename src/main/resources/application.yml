@@ -1,0 +1,19 @@
+spring:
+  application:
+    name: SpringMasterClass
+  datasource:
+    url: jdbc:postgresql://localhost:5432/postgres
+    username: postgres
+    password: Z6v$3x9Ku@R#Fw!
+    driver-class-name: org.postgresql.Driver
+    name: security
+  jpa:
+    hibernate:
+      ddl-auto: create
+    show-sql: true
+    properties:
+      hibernate:
+        format_sql:
+    database: postgresql
+
+
